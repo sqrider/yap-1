@@ -1,19 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
 #footer {
+
     background-color: #0C2233;
     font-size: 1.5em;
 }
 
-#footer-body {
-    width:calc(100% / 4);
-    display:inline-block;
+.footer-body {
+    display:-webkit-inline-box;
+    margin: 7px 12%; /*Temporary "centering"*/
 }
 
+.footer-section {
+    width: 150%;
+}
 .icon {
     text-align: center;
     margin-right: 2vw;
     margin-left: 2vw;
     color: white;
+
 }
 
 body{
@@ -103,7 +108,7 @@ body{
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-    .col { 
+    .col {
         margin: 1% 0 1% 0%;
     }
 }
@@ -136,3 +141,4 @@ a{
     margin-right: 30vw;
     margin-left: 30vw;
 }
+
