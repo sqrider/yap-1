@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
 #footer {
-    background-color: #666666;
+    background-color: #0C2233;
+    font-size: 1.5em;
 }
 
 #footer-body {
@@ -9,6 +11,9 @@
 
 .icon {
     text-align: center;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    color: white;
 }
 
 body{
@@ -20,6 +25,8 @@ body{
     clear: both;
     padding: 0px;
     margin: 0px;
+    /*Adding inner wrapper */
+    padding: 3vh; 
 }
 
 /*  COLUMN SETUP  */
@@ -27,8 +34,57 @@ body{
     display: block;
     float:left;
     margin: 1% 0 1% 1.6%;
-}
+*/}
 .col:first-child { margin-left: 0; }
+
+/* COLUMN METRO STYLING */
+.color  i{
+    display: block;
+}
+
+.color a{
+    color: white;
+}
+
+.color {
+    height: 25vw;
+    margin-bottom: 2vw;
+}
+
+
+/* COLORS */
+.color-1{
+    background-color: #FF5AB0;
+}
+
+.color-2{
+    background-color: #4DF4F2;
+}
+
+.color-3{
+    background-color: #FFE165;
+}
+
+.color-4{
+    background-color: #FF4B68;
+}
+
+.color-5{
+    background-color: #645FCE;
+}
+
+.color-6{
+    background-color: #2DEA8F;
+}
+
+.color-7{
+    background-color: #FFF;
+}
+
+.color-8{
+    background-color: #FFF;
+}
+
 
 /*  GROUPING  */
 .group:before,
@@ -43,6 +99,7 @@ body{
     width: 49.2%;
 }
 
+
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
@@ -53,4 +110,29 @@ body{
 
 @media only screen and (max-width: 480px) {
     .span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+/* OVERRIDE STANDARD CSS RULES */
+a{
+    text-decoration: none !important;
+}
+
+/* FLEXBOX FOR VERETICAL CENTERING */
+.flexbox {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.center{
+    margin-right: 30vw;
+    margin-left: 30vw;
 }
