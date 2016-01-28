@@ -59,11 +59,13 @@ body{
 
 /* COLORS */
 .color-1{
-    background-color: #FF5AB0;
+    background-color: #45ADA8;
+    /*FF5AB0*/
 }
 
 .color-2{
     background-color: #4DF4F2;
+
 }
 
 .color-3{
@@ -71,7 +73,8 @@ body{
 }
 
 .color-4{
-    background-color: #FF4B68;
+    background-color: #9DE0AD;
+    /*FF4B68 */ 
 }
 
 .color-5{
