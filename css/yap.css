@@ -1,14 +1,18 @@
 #footer {
-    background-color: #666666;
+    background-color: #4c4c4c;
 }
 
-#footer-body {
-    width:calc(100% / 4);
-    display:inline-block;
+.footer-body {
+    display:-webkit-inline-box;
+    margin: 7px 12%; /*Temporary "centering"*/
 }
 
+.footer-section {
+    width: 150%;
+}
 .icon {
     text-align: center;
+    display: inline-block;
 }
 
 body{
@@ -46,7 +50,7 @@ body{
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-    .col { 
+    .col {
         margin: 1% 0 1% 0%;
     }
 }
